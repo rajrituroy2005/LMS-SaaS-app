@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 LMS SaaS Platform (Work in Progress)
 
-## Getting Started
+An early-stage **Learning Management System (LMS) SaaS** built with **Next.js App Router** and **shadcn/ui**, focused on creating a modern, scalable foundation for online education platforms.
 
-First, run the development server:
+> ⚠️ **Status:** Active Development. Currently, the Landing Page is the primary functional module.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ✨ The Vision
+The goal is to provide a seamless bridge between instructors and students through a high-performance SaaS architecture.
+* **Scalability:** Built to support multi-tenant features for various organizations.
+* **User Experience:** Accessible and modern UI using shadcn/ui.
+* **Monetization:** Future-ready for subscription and one-time purchase models.
+* **Progress Tracking:** Granular analytics for student engagement and course completion.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📊 Implementation Progress
 
-## Learn More
+| Feature Category | Status | Details |
+| :--- | :--- | :--- |
+| **Landing Page** | ✅ Complete | Modern, responsive hero sections & CTA. |
+| **Framework** | ✅ Complete | Next.js 15+ App Router architecture. |
+| **Design System** | ✅ Complete | Tailwind CSS + shadcn/ui components. |
+| **Authentication** | 🏗️ Planned | Role-based (Student/Instructor/Admin). |
+| **Course Engine** | ❌ Pending | Video hosting, quizzes, and attachments. |
+| **Payments** | ❌ Pending | Stripe / Razorpay integration. |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Technical Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Core Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **UI Components:** shadcn/ui (Radix UI)
+* **Package Manager:** npm / pnpm / yarn / bun
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **`app/`**: Contains the main routing logic, layouts, and page components.
+* **`components/`**: Modular UI elements and shared business logic components.
+* **`public/`**: Static assets, including icons and brand imagery.
+* **`styles/`**: Global CSS and Tailwind configurations.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Node.js 18+
+* Package manager (npm, pnpm, yarn, or bun)
+
+### Installation & Setup
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
+
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run Development Server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Access App:**
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🗺 Roadmap
+
+* **Phase 1:** Auth integration (Clerk or NextAuth) and Database Schema (Prisma/Drizzle).
+* **Phase 2:** Instructor Dashboard for course uploads and content management.
+* **Phase 3:** Student Dashboard with progress bars and video player integration.
+* **Phase 4:** Payment gateway integration and email notifications.
+
+---
+
+## 🤝 Contribution & License
+
+* **Contributing:** This project is currently a solo build. Feedback and ideas are welcome via Issues!
+* **License:** Distributed under the [MIT License](LICENSE).
+* **Author:** Built with ❤️ by **Xthunderr** (B.Tech Student | Full-Stack Learner).
+
+---
+
+⭐ **Note:** If you’re viewing this repository, keep in mind this is not a finished product, but a solid foundation for a scalable LMS SaaS.
