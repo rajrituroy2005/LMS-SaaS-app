@@ -149,7 +149,7 @@ body {
     @apply flex flex-wrap gap-4 w-full max-md:justify-center;
   }
   .companion-card {
-    @apply flex flex-col rounded-4xl border border-black px-4 py-4 gap-5 w-full min-lg:max-w-[410px] justify-between;
+    @apply flex flex-col rounded-4xl border border-black px-4 py-4 gap-5 w-full lg:max-w-102.5 justify-between;
   }
   .subject-badge {
     @apply bg-black text-white rounded-4xl text-sm px-2 py-1 capitalize;
@@ -158,7 +158,7 @@ body {
     @apply px-2 bg-black rounded-4xl flex items-center h-full aspect-square cursor-pointer;
   }
   .input {
-    @apply !border-black !bg-white focus-visible:!ring-0 focus-visible:!border-black !w-full;
+    @apply border-black! !bg-white focus-visible:!ring-0 focus-visible:!border-black !w-full;
   }
   .rounded-border {
     @apply rounded-4xl border border-black;
@@ -193,7 +193,7 @@ body {
     @apply size-[300px] flex items-center justify-center rounded-lg max-sm:size-[100px] mt-4;
   }
   .companion-lottie {
-    @apply size-[300px] max-sm:size-[100px];
+    @apply size-75 max-sm:size-[100px];
   }
 
   .user-section {
