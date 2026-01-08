@@ -89,8 +89,16 @@ The goal is to provide a seamless bridge between instructors and students throug
 
 * **Contributing:** This project is currently a solo build. Feedback and ideas are welcome via Issues!
 * **License:** Distributed under the [MIT License](LICENSE).
+<<<<<<< HEAD
 * **Author:** Built with ❤️ by **Xthunderr** (B.Tech Student | Full-Stack Learner).
 
 ---
 
 ⭐ **Note:** If you’re viewing this repository, keep in mind this is not a finished product, but a solid foundation for a scalable LMS SaaS.
+=======
+* **Author:** Built with ❤️ by **Rituraj Roy** (B.Tech Student | Full-Stack Learner).
+
+---
+
+⭐ **Note:** If you’re viewing this repository, keep in mind this is not a finished product, but a solid foundation for a scalable LMS SaaS.
+>>>>>>> 2ce8a73feae306b309da7237f3025e61f5d16384
