@@ -89,7 +89,7 @@ The goal is to provide a seamless bridge between instructors and students throug
 
 * **Contributing:** This project is currently a solo build. Feedback and ideas are welcome via Issues!
 * **License:** Distributed under the [MIT License](LICENSE).
-* **Author:** Built with ❤️ by **Xthunderr** (B.Tech Student | Full-Stack Learner).
+* **Author:** Built with ❤️ by **Rituraj Roy** (B.Tech Student | Full-Stack Learner).
 
 ---
 
